@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 
 RealImg/
+
+__pycache__/

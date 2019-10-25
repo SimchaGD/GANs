@@ -18,13 +18,13 @@ nc = 3
 nz = 100
 
 # Size of feature maps in generator
-ngf = 64
+ngf = 16
 
 # Size of feature maps in discriminator
 ndf = 64
 
 # Number of training epochs
-num_epochs = 50
+num_epochs = 10
 
 # Learning rate for optimizers
 lr = 0.0002

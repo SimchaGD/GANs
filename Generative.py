@@ -39,7 +39,7 @@ class GenerativeNetwork(nn.Module):
             # state size. (nc) x 64 x 64
             
             # Get images to (nc) x 50 x 50
-            nn.MaxPool2d(kernel_size = 15, stride = 1, padding = 0)
+            nn.ConvTranspose2d(nc, nc, kernel_size = 15, stride = 1, padding = 0)
             
         )
         
